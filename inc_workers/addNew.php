@@ -7,6 +7,9 @@
  */
 
 //send sms after successful registration
+//add worker to workers table....
+//update on duplicate
+
 
 /*
  *

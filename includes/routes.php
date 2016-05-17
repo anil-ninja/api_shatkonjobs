@@ -160,6 +160,7 @@ switch ($page) {
         break;
 
     default:
+        echo "<center> <h1>We don't believe in punching faces, Lets STANDUP and WORK HARD to kick asses...</h1> </center>";
         internalServerError("Error description: " . json_encode($_SERVER));
         die();
 
