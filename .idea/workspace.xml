@@ -4,6 +4,7 @@
     <list default="true" id="a974ce52-f725-4b2d-94b8-c8cc4b88e820" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.php" afterPath="$PROJECT_DIR$/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="api_shatkonjobs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.051282052">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -58,8 +59,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="66" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="66" />
+            <state vertical-scroll-proportion="-12.5">
+              <caret line="20" column="0" selection-start-line="19" selection-start-column="16" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#6#92#0#PHP" expanded="true" />
               </folding>
@@ -67,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61538464">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state vertical-scroll-proportion="-14.375">
+              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
               <folding>
                 <element signature="e#6#92#0#PHP" expanded="true" />
               </folding>
@@ -164,9 +165,9 @@
         <option value="$PROJECT_DIR$/resources/candidates/updateCandidate.php" />
         <option value="$PROJECT_DIR$/db.php" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/app.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -401,7 +402,13 @@
       <option name="project" value="LOCAL" />
       <updated>1465038407206</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added slim response heades">
+      <created>1465038768526</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1465038768526</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -628,14 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -644,23 +643,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
+    <entry file="file://$PROJECT_DIR$/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="66" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="66" />
+        <state vertical-scroll-proportion="-14.375">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.php">
+    <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61538464">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="20" column="0" selection-start-line="19" selection-start-column="16" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.051282052">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

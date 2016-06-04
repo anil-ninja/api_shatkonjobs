@@ -22,9 +22,6 @@ $app->response->headers->set('Content-Type', 'application/json');
 /* Starting routes */
 
 $app->get('/candidates/to-call','getCandidatesToCall');
-$app->options('/candidates/to-call', function () {
-    //Return response headers
-});
 $app->post('/candidates', 'insertCandidate');
 $app->put('/candidates/:id','updateCandidate');
 $app->delete('/candidates/:id','deleteCandidate');

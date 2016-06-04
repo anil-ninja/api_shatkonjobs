@@ -1,5 +1,6 @@
 <?php
 
+require_once "header.php";
 include 'db.php';
 require 'Slim/Slim.php';
 
@@ -17,6 +18,6 @@ require_once "resources/professions/getAllProfessions.php";
 //app
 require_once "app.php";
 
-require_once "header.php";
+
 
 ?>
