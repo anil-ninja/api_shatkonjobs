@@ -8,7 +8,7 @@
 
 function deleteCandidate($candidate_id){
 
-    $sql = "UPDATE candidate SET status = 'delete' WHERE id=:candidate_id";
+    $sql = "UPDATE candidate SET status = 'deleted' WHERE id=:candidate_id";
     try {
         $db = getDB();
         $stmt = $db->prepare($sql);

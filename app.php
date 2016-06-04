@@ -21,6 +21,8 @@ $app->put('/candidates/:id','updateCandidate');
 $app->delete('/candidates/:id','deleteCandidate');
 $app->get('/candidates/search','searchCandidates');
 
+$app->get('/professions','getAllProfessions');
+
 /* Ending Routes */
 
 $app->run();

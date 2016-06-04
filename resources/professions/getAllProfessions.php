@@ -3,18 +3,18 @@
  * Created by PhpStorm.
  * User: spider-ninja
  * Date: 6/4/16
- * Time: 1:30 PM
+ * Time: 3:16 PM
  */
 
-function getCandidatesToCall(){
+function getAllProfessions(){
 
-    $sql = "SELECT * FROM candidates WHERE status = 'new' or status = 'followback' ";
+    $sql = "SELECT id,name FROM professions WHERE status = 'active'";
     try {
         $db = getDB();
         $stmt = $db->query($sql);
-        $candidates = $stmt->fetchAll(PDO::FETCH_OBJ);
+        $professions = $stmt->fetchAll(PDO::FETCH_OBJ);
         $db = null;
-        echo '{"candidates": ' . json_encode($candidates) . '}';
+        echo '{"professions": ' . json_encode($professions) . '}';
     } catch (PDOException $e) {
         //error_log($e->getMessage(), 3, '/var/tmp/php.log');
         echo '{"error":{"text":' . $e->getMessage() . '}}';
