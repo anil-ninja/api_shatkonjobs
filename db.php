@@ -2,8 +2,8 @@
 function getDB() {
 	$dbhost="localhost";
 	$dbuser="root";
-	$dbpass="";
-	$dbname="socialproject";
+	$dbpass="redhat@11111p";
+	$dbname="shatkonjobs";
 	$dbConnection = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);	
 	$dbConnection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	return $dbConnection;
