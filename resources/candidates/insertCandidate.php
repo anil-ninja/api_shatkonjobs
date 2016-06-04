@@ -6,7 +6,7 @@
  * Time: 1:31 PM
  */
 
-function insertUpdate(){
+function insertCandidate(){
 
     $request = \Slim\Slim::getInstance()->request();
 
