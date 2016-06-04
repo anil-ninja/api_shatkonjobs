@@ -28,7 +28,7 @@ function insertCandidate(){
                       profession_id,
                       native_place,
                       native_address,
-                      remark,
+                      remarks,
                       status
                       )
                   VALUES (
@@ -45,7 +45,7 @@ function insertCandidate(){
                       :profession_id,
                       :native_place,
                       :native_address,
-                      :remark,
+                      :remarks,
                       :status
                       )";
     try {
@@ -64,7 +64,7 @@ function insertCandidate(){
         $stmt->bindParam("profession_id", $candidate->profession_id);
         $stmt->bindParam("native_place", $candidate->native_place);
         $stmt->bindParam("native_address", $candidate->native_address);
-        $stmt->bindParam("remark", $candidate->remark);
+        $stmt->bindParam("remarks", $candidate->remarks);
         $stmt->bindParam("status", $candidate->status);
         $stmt->bindParam("creation", date("Y-m-d H:i:s"));
 

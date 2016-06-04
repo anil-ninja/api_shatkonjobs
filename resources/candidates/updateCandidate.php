@@ -24,7 +24,7 @@ function updateCandidate($candidate_id){
                       'profession_id'=:profession_id,
                       'native_place'=:native_place,
                       'native_address'=:native_address,
-                      'remark'=:remark,
+                      'remarks'=:remarks,
                       'status'=:status
                     WHERE id=:candidate_id";
     try {
@@ -39,7 +39,7 @@ function updateCandidate($candidate_id){
         $stmt->bindParam("profession_id", $candidate->profession_id);
         $stmt->bindParam("native_place", $candidate->native_place);
         $stmt->bindParam("native_address", $candidate->native_address);
-        $stmt->bindParam("remark", $candidate->remark);
+        $stmt->bindParam("remarks", $candidate->remarks);
         $stmt->bindParam("status", $candidate->status);
 
 
