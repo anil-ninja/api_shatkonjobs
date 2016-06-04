@@ -8,4 +8,6 @@ function getDB() {
 	$dbConnection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	return $dbConnection;
 }
+
+
 ?>
