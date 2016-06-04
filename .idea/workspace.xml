@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a974ce52-f725-4b2d-94b8-c8cc4b88e820" name="Default" comment="added .htaccess">
+    <list default="true" id="a974ce52-f725-4b2d-94b8-c8cc4b88e820" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.php" afterPath="$PROJECT_DIR$/app.php" />
     </list>
@@ -70,8 +70,8 @@
       <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4871795">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.53846157">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding>
                 <element signature="e#6#92#0#PHP" expanded="true" />
               </folding>
@@ -377,7 +377,13 @@
       <option name="project" value="LOCAL" />
       <updated>1465037406915</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added slim response heades">
+      <created>1465037776005</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1465037776005</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -417,7 +423,8 @@
     <MESSAGE value="deleteCandidate bug1" />
     <MESSAGE value="cross-origin bug2" />
     <MESSAGE value="added .htaccess" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .htaccess" />
+    <MESSAGE value="added slim response heades" />
+    <option name="LAST_COMMIT_MESSAGE" value="added slim response heades" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -631,8 +638,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4871795">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.53846157">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
           </folding>
