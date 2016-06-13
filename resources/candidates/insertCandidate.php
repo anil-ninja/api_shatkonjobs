@@ -65,7 +65,7 @@ function insertCandidate(){
         $stmt->bindParam("native_place", $candidate->native_place);
         $stmt->bindParam("native_address", $candidate->native_address);
         $stmt->bindParam("remarks", $candidate->remarks);
-        $stmt->bindParam("status", $candidate->status);
+        $stmt->bindParam("status", "new" );
         $stmt->bindParam("creation", date("Y-m-d H:i:s"));
 
         $stmt->execute();
