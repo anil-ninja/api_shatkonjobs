@@ -77,6 +77,6 @@ function insertCandidate(){
 
     } catch (PDOException $e) {
         //error_log($e->getMessage(), 3, '/var/tmp/php.log');
-        echo '{"error":{"text":' . $e->getMessage() . '}}';
+        echo '{"error":{"text":"' . $e->getMessage() . '"}}';
     }
 }
