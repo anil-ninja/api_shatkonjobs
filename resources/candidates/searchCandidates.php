@@ -15,7 +15,7 @@ function searchCandidates(){
     $gender = $app->request()->get('gender');
     $profession_id = $app->request()->get('profession_id');
 
-    $age_str = ($age!=null)?" AND age < :age  ":"";
+    $age_str = ($age!=null)?" AND age <= :age  ":"";
     $area_str = ($area!=null)?" AND area = :area  ":"";
     $gender_str = ($gender!=null)?" AND gender = :gender ":"";
 
