@@ -34,7 +34,8 @@ function searchCandidates(){
 
         $stmt->bindParam("profession_id", $profession_id);
 
-        $stmt = $db->query($sql);
+        $stmt->execute();
+        //$stmt = $db->query($sql);
         $candidates = $stmt->fetchAll(PDO::FETCH_OBJ);
         $db = null;
         echo '{"candidates": ' . json_encode($candidates) . '}';
