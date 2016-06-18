@@ -13,7 +13,7 @@ function updateCandidate($candidate_id){
     $candidate = json_decode($request->getBody());
 
     $sql = "UPDATE
-              candidate
+              candidates
                 SET
                   name=:name,
                   area=:area,
@@ -49,7 +49,7 @@ function updateCandidate($candidate_id){
         echo '{"status": "success" }';
     } catch (PDOException $e) {
         //error_log($e->getMessage(), 3, '/var/tmp/php.log');
-        echo '{"error":{"text":' . $e->getMessage() . '}}';
+        echo '{"error":{"text":"' . $e->getMessage() . '"}}';
     }
 
 }

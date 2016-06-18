@@ -134,11 +134,11 @@
       <file leaf-file-name="updateCandidate.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/candidates/updateCandidate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4095563">
-              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.7696246">
+              <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
               <folding>
                 <element signature="e#6#92#0#PHP" expanded="true" />
-                <marker date="1466242381828" expanded="true" signature="254:778" placeholder="UPDATE candi... " />
+                <marker date="1466242464148" expanded="true" signature="254:779" placeholder="UPDATE candi... " />
               </folding>
             </state>
           </provider>
@@ -473,7 +473,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466242254013</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="added slim response heades">
+      <created>1466242391645</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1466242391645</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -615,7 +621,7 @@
           <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
-            <marker date="1466242381828" expanded="true" signature="254:778" placeholder="UPDATE candi... " />
+            <marker date="1466242464148" expanded="true" signature="254:779" placeholder="UPDATE candi... " />
           </folding>
         </state>
       </provider>
@@ -714,7 +720,7 @@
           <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
-            <marker date="1466242381828" expanded="true" signature="254:778" placeholder="UPDATE candi... " />
+            <marker date="1466242464148" expanded="true" signature="254:779" placeholder="UPDATE candi... " />
           </folding>
         </state>
       </provider>
@@ -783,7 +789,7 @@
           <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
-            <marker date="1466242381828" expanded="true" signature="254:778" placeholder="UPDATE candi... " />
+            <marker date="1466242464148" expanded="true" signature="254:779" placeholder="UPDATE candi... " />
           </folding>
         </state>
       </provider>
@@ -909,11 +915,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/candidates/updateCandidate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4095563">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.7696246">
+          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
-            <marker date="1466242381828" expanded="true" signature="254:778" placeholder="UPDATE candi... " />
+            <marker date="1466242464148" expanded="true" signature="254:779" placeholder="UPDATE candi... " />
           </folding>
         </state>
       </provider>
