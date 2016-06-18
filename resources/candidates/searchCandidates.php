@@ -11,6 +11,7 @@ function searchCandidates(){
     global $app;
 
     $age = $app->request()->get('age');
+    var_dump($age);
     $area = $app->request()->get('area');
     $gender = $app->request()->get('gender');
     $profession_id = $app->request()->get('profession_id');
