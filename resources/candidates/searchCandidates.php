@@ -23,9 +23,9 @@ function searchCandidates(){
         $db = getDB();
         $stmt = $db->query($sql);
 
-        if(isset($age)) $stmt->bindParam("age", $age);
-        if(isset($area)) $stmt->bindParam("area", $area);
-        if(isset($gender)) $stmt->bindParam("gender", $gender);
+        if($age!=null) $stmt->bindParam("age", $age);
+        if($area!=null) $stmt->bindParam("area", $area);
+        if($gender!=null) $stmt->bindParam("gender", $gender);
 
         $stmt->bindParam("profession_id", $profession_id);
 
