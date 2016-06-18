@@ -134,11 +134,11 @@
       <file leaf-file-name="searchCandidates.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/candidates/searchCandidates.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37542662">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.50341296">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding>
-                <marker date="1466246869116" expanded="true" signature="515:576" placeholder="SELECT * FRO... candidates" />
-                <marker date="1466246869116" expanded="true" signature="515:577" placeholder="SELECT * FRO... candidates" />
+                <marker date="1466246910776" expanded="true" signature="515:576" placeholder="SELECT * FRO... candidates" />
+                <marker date="1466246910776" expanded="true" signature="515:577" placeholder="SELECT * FRO... candidates" />
               </folding>
             </state>
           </provider>
@@ -503,7 +503,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466246475366</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added slim response heades">
+      <created>1466246873843</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1466246873843</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -943,11 +949,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/candidates/searchCandidates.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37542662">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.50341296">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding>
-            <marker date="1466246869116" expanded="true" signature="515:576" placeholder="SELECT * FRO... candidates" />
-            <marker date="1466246869116" expanded="true" signature="515:577" placeholder="SELECT * FRO... candidates" />
+            <marker date="1466246910776" expanded="true" signature="515:576" placeholder="SELECT * FRO... candidates" />
+            <marker date="1466246910776" expanded="true" signature="515:577" placeholder="SELECT * FRO... candidates" />
           </folding>
         </state>
       </provider>
