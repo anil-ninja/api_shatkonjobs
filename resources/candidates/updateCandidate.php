@@ -15,17 +15,17 @@ function updateCandidate($candidate_id){
     $sql = "UPDATE
               candidate
                 SET
-                  'name'=:name,
-                  'area'=:area,
-                  'age'=:age,
-                      'dob'=:dob,
-                      'address'=:address,
-                      'gender'=:gender,
-                      'profession_id'=:profession_id,
-                      'native_place'=:native_place,
-                      'native_address'=:native_address,
-                      'remarks'=:remarks,
-                      'status'=:status
+                  name=:name,
+                  area=:area,
+                  age=:age,
+                      dob=:dob,
+                      address=:address,
+                      gender=:gender,
+                      profession_id=:profession_id,
+                      native_place=:native_place,
+                      native_address=:native_address,
+                      remarks=:remarks,
+                      status=:status
                     WHERE id=:candidate_id";
     try {
         $db = getDB();
