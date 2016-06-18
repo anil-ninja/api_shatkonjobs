@@ -41,7 +41,7 @@ function updateCandidate($candidate_id){
         $stmt->bindParam("native_address", $candidate->native_address);
         $stmt->bindParam("remarks", $candidate->remarks);
         $stmt->bindParam("status", $candidate->status);
-
+        $stmt->bindParam("candidate_id", $candidate_id);
 
         $stmt->execute();
 
