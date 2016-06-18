@@ -23,7 +23,7 @@ function searchCandidates(){
                             .$age_str
                             .$area_str
                             .$gender_str;
-    echo $sql;
+    echo $profession_id;
     try {
         $db = getDB();
         $stmt = $db->query($sql);
