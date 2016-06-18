@@ -11,15 +11,14 @@ function searchCandidates(){
     global $app;
 
     $age = $app->request()->get('age');
-    var_dump($age);
     $area = $app->request()->get('area');
     $gender = $app->request()->get('gender');
     $profession_id = $app->request()->get('profession_id');
 
     $sql = "SELECT * FROM candidates WHERE profession_id = :profession_id "
-                            .isset($age)?" AND age < :age  ":""
-                            .isset($area)?" AND area = :area  ":""
-                            .isset($gender)?" AND gender = :gender ":"";
+                            .($age!=null)?" AND age < :age  ":""
+                            .($area!=null)?" AND area = :area  ":""
+                            .($gender!=null)?" AND gender = :gender ":"";
     try {
         $db = getDB();
         $stmt = $db->query($sql);

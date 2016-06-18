@@ -134,10 +134,10 @@
       <file leaf-file-name="searchCandidates.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/candidates/searchCandidates.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19624573">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.37542662">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding>
-                <marker date="1466246167184" expanded="true" signature="363:425" placeholder="SELECT * FRO... candidates" />
+                <marker date="1466246385688" expanded="true" signature="343:405" placeholder="SELECT * FRO... candidates" />
               </folding>
             </state>
           </provider>
@@ -484,7 +484,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466242475057</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="added slim response heades">
+      <created>1466246177044</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1466246177044</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -924,10 +930,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/candidates/searchCandidates.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19624573">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.37542662">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding>
-            <marker date="1466246167184" expanded="true" signature="363:425" placeholder="SELECT * FRO... candidates" />
+            <marker date="1466246385688" expanded="true" signature="343:405" placeholder="SELECT * FRO... candidates" />
           </folding>
         </state>
       </provider>
