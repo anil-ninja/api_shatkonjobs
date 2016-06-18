@@ -19,7 +19,7 @@ function searchCandidates(){
     $area_str = ($area!=null)?" AND area = :area  ":"";
     $gender_str = ($gender!=null)?" AND gender = :gender ":"";
 
-    $sql = "SELECT * FROM candidates WHERE profession_id = :profession_id "
+    $sql = "SELECT * FROM candidates WHERE profession_id =:profession_id "
                             .$age_str
                             .$area_str
                             .$gender_str;
