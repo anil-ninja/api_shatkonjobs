@@ -26,7 +26,7 @@ function searchCandidates(){
     echo $profession_id;
     try {
         $db = getDB();
-        $stmt = $db->query($sql);
+        $stmt = $db->prepare($sql);
 
         if($age!=null) $stmt->bindParam("age", $age);
         if($area!=null) $stmt->bindParam("area", $area);
@@ -34,6 +34,7 @@ function searchCandidates(){
 
         $stmt->bindParam("profession_id", $profession_id);
 
+        $stmt = $db->query($sql);
         $candidates = $stmt->fetchAll(PDO::FETCH_OBJ);
         $db = null;
         echo '{"candidates": ' . json_encode($candidates) . '}';
