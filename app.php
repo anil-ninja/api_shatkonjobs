@@ -31,6 +31,8 @@ $app->get('/candidates/search','searchCandidates');
 
 $app->get('/professions','getAllProfessions');
 
+$app->post('/auth', 'userAuth');
+
 /* Ending Routes */
 
 $app->run();

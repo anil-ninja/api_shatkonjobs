@@ -25,7 +25,7 @@ function updateCandidate($candidate_id){
                       native_place=:native_place,
                       native_address=:native_address,
                       remarks=:remarks,
-                      status=:status
+                      status= 'verified'
                     WHERE id=:candidate_id";
     try {
         $db = getDB();
@@ -40,7 +40,7 @@ function updateCandidate($candidate_id){
         $stmt->bindParam("native_place", $candidate->native_place);
         $stmt->bindParam("native_address", $candidate->native_address);
         $stmt->bindParam("remarks", $candidate->remarks);
-        $stmt->bindParam("status", $candidate->status);
+        //$stmt->bindParam("status", $candidate->status);
         $stmt->bindParam("candidate_id", $candidate_id);
 
         $stmt->execute();

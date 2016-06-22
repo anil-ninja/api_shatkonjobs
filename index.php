@@ -12,6 +12,7 @@ require_once "resources/candidates/getCandidatesToCall.php";
 require_once "resources/candidates/insertCandidate.php";
 require_once "resources/candidates/searchCandidates.php";
 require_once "resources/candidates/updateCandidate.php";
+require_once "resources/auth/postUserAuth.php";
 
 //professions resource
 require_once "resources/professions/getAllProfessions.php";
