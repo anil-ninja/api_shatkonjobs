@@ -8,7 +8,7 @@
 
 function getCandidatesToCall(){
 
-    $sql = "SELECT * FROM candidates WHERE status = 'new' or status = 'followback' ";
+    $sql = "SELECT * FROM candidates WHERE status = 'new' or status = 'followback' ORDER BY `candidates`.`last_updated` ASC ";
     try {
         $db = getDB();
         $stmt = $db->query($sql);
