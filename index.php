@@ -17,6 +17,9 @@ require_once "resources/auth/postUserAuth.php";
 //professions resource
 require_once "resources/professions/getAllProfessions.php";
 
+//areas resource
+require_once "resources/areas/getAllAreas.php";
+
 //app
 require_once "app.php";
 

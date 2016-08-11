@@ -30,6 +30,7 @@ $app->delete('/candidates/:id','deleteCandidate');
 $app->get('/candidates/search','searchCandidates');
 
 $app->get('/professions','getAllProfessions');
+$app->get('/areas','getAllAreas');
 
 $app->post('/auth', 'userAuth');
 
