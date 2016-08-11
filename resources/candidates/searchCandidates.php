@@ -11,12 +11,12 @@ function searchCandidates(){
     global $app;
 
     $age = $app->request()->get('age');
-    $area = $app->request()->get('area');
+    $area_id = $app->request()->get('area_id');
     $gender = $app->request()->get('gender');
     $profession_id = $app->request()->get('profession_id');
 
     $age_str = ($age!=null)?" AND age <= :age  ":"";
-    $area_str = ($area!=null)?" AND area = :area  ":"";
+    $area_str = ($area_id!=null)?" AND area_id = :area_id  ":"";
     $gender_str = ($gender!=null)?" AND gender = :gender ":"";
 
     $sql = "SELECT * FROM candidates WHERE profession_id =:profession_id "
@@ -28,7 +28,7 @@ function searchCandidates(){
         $stmt = $db->prepare($sql);
 
         if($age!=null) $stmt->bindParam("age", $age);
-        if($area!=null) $stmt->bindParam("area", $area);
+        if($area_id!=null) $stmt->bindParam("area_id", $area_id);
         if($gender!=null) $stmt->bindParam("gender", $gender);
 
         $stmt->bindParam("profession_id", $profession_id);

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a974ce52-f725-4b2d-94b8-c8cc4b88e820" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/areas/getAllAreas.php" afterPath="$PROJECT_DIR$/resources/areas/getAllAreas.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/candidates/searchCandidates.php" afterPath="$PROJECT_DIR$/resources/candidates/searchCandidates.php" />
     </list>
     <ignored path="api_shatkonjobs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getAllAreas.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="getAllAreas.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/areas/getAllAreas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12798634">
+            <state vertical-scroll-proportion="-3.125">
               <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding>
                 <marker date="1470893900464" expanded="true" signature="131:164" placeholder="SELECT id,ar... areas" />
@@ -138,14 +138,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchCandidates.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="searchCandidates.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/candidates/searchCandidates.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.53754264">
+              <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
               <folding>
-                <marker date="1466252139300" expanded="true" signature="516:576" placeholder="SELECT * FRO... candidates" />
-                <marker date="1466252139300" expanded="true" signature="516:577" placeholder="SELECT * FRO... candidates" />
+                <marker date="1470894922628" expanded="true" signature="531:591" placeholder="SELECT * FRO... candidates" />
+                <marker date="1470894922628" expanded="true" signature="531:592" placeholder="SELECT * FRO... candidates" />
               </folding>
             </state>
           </provider>
@@ -169,13 +169,13 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/resources/candidates/insertCandidate.php" />
-        <option value="$PROJECT_DIR$/resources/candidates/searchCandidates.php" />
         <option value="$PROJECT_DIR$/resources/candidates/updateCandidate.php" />
         <option value="$PROJECT_DIR$/resources/auth/postUserAuth.php" />
         <option value="$PROJECT_DIR$/resources/candidates/getCandidatesToCall.php" />
         <option value="$PROJECT_DIR$/app.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/resources/areas/getAllAreas.php" />
+        <option value="$PROJECT_DIR$/resources/candidates/searchCandidates.php" />
       </list>
     </option>
   </component>
@@ -621,7 +621,13 @@
       <option name="project" value="LOCAL" />
       <updated>1470893646553</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="added slim response heades">
+      <created>1470893910911</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1470893910911</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -747,8 +753,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
-            <marker date="1466252139300" expanded="true" signature="516:576" placeholder="SELECT * FRO... candidates" />
-            <marker date="1466252139300" expanded="true" signature="516:577" placeholder="SELECT * FRO... candidates" />
+            <marker date="1470894922628" expanded="true" signature="531:591" placeholder="SELECT * FRO... candidates" />
+            <marker date="1470894922628" expanded="true" signature="531:592" placeholder="SELECT * FRO... candidates" />
           </folding>
         </state>
       </provider>
@@ -1102,29 +1108,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/candidates/getCandidatesToCall.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="e#6#92#0#PHP" expanded="true" />
-            <marker date="1466748131084" expanded="true" signature="139:209" placeholder="SELECT id,us... users" />
-            <marker date="1466748131084" expanded="true" signature="139:250" placeholder="SELECT * FRO... candidates" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/candidates/searchCandidates.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding>
-            <marker date="1466252139300" expanded="true" signature="516:576" placeholder="SELECT * FRO... candidates" />
-            <marker date="1466252139300" expanded="true" signature="516:577" placeholder="SELECT * FRO... candidates" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/professions/getAllProfessions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0">
@@ -1156,10 +1139,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/areas/getAllAreas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12798634">
+        <state vertical-scroll-proportion="-3.125">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
             <marker date="1470893900464" expanded="true" signature="131:164" placeholder="SELECT id,ar... areas" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/candidates/getCandidatesToCall.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#6#92#0#PHP" expanded="true" />
+            <marker date="1466748131084" expanded="true" signature="139:209" placeholder="SELECT id,us... users" />
+            <marker date="1466748131084" expanded="true" signature="139:250" placeholder="SELECT * FRO... candidates" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/candidates/searchCandidates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53754264">
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+          <folding>
+            <marker date="1470894922628" expanded="true" signature="531:591" placeholder="SELECT * FRO... candidates" />
+            <marker date="1470894922628" expanded="true" signature="531:592" placeholder="SELECT * FRO... candidates" />
           </folding>
         </state>
       </provider>
