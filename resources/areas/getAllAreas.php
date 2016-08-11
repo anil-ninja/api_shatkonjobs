@@ -8,7 +8,7 @@
 
 function getAllAreas(){
 
-    $sql = "SELECT id,area FROM professions WHERE 1";
+    $sql = "SELECT id,area FROM areas WHERE 1";
     try {
         $db = getDB();
         $stmt = $db->query($sql);
