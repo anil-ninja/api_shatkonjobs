@@ -28,6 +28,11 @@ $app->post('/candidates', 'insertCandidate');
 $app->put('/candidates/:id','updateCandidate');
 $app->delete('/candidates/:id','deleteCandidate');
 $app->get('/candidates/search','searchCandidates');
+$app->get('/worker/show' , 'showContact');
+
+
+
+$app->get('/worker','searchworker');
 
 $app->get('/professions','getAllProfessions');
 $app->get('/areas','getAllAreas');

@@ -22,6 +22,8 @@ require_once "resources/areas/getAllAreas.php";
 
 //app
 require_once "app.php";
+require_once "resources/worker/searchworker.php";
+require_once  "resources/worker/showContact.php";
 
 
 
