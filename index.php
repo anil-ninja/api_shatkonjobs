@@ -14,6 +14,10 @@ require_once "resources/candidates/searchCandidates.php";
 require_once "resources/candidates/updateCandidate.php";
 require_once "resources/auth/postUserAuth.php";
 
+
+require_once "resources/worker/requestContact.php";
+require_once "resources/worker/searchArea.php";
+require_once "resources/worker/showContact.php";
 //professions resource
 require_once "resources/professions/getAllProfessions.php";
 

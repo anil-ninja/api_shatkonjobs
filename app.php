@@ -28,12 +28,9 @@ $app->post('/candidates', 'insertCandidate');
 $app->put('/candidates/:id','updateCandidate');
 $app->delete('/candidates/:id','deleteCandidate');
 $app->get('/candidates/search','searchCandidates');
-
-
-
-
-
-
+$app->get('/candidates/search','requestContact');
+$app->post('/candidates/search','searchArea');
+$app->post('/candidates/search','showContact');
 $app->get('/professions','getAllProfessions');
 $app->get('/areas','getAllAreas');
 
